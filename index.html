@@ -14,18 +14,23 @@
         <section id="Home" class="header__nav container">
             <div class="header__nav__container">
 
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
                 <div class="header__nav__title">
                     <h1>The Universe</h1>
                 </div>
 
                 <div class="header__nav__nav">
-                    <a href="#Home">Home</a>
+                    <a class="active" href="#Home">Home</a>
                     <a href="./pages/about-us.html">About Us</a>
                     <a href="./pages/contact.html">Contact</a>
                 </div>
 
                 <div class="header__nav__account">
-                    <p>Sign In</p>
+                    <p class="active">Sign In</p>
                     <i class="fas fa-sign-in-alt"></i>
                 </div>
 
@@ -81,6 +86,15 @@
         </div>
     </section>
 
+    <div class='controls'>
+        <button class='controls__buttons controls__iz'>
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class='controls__buttons controls__der'>
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+
     <section class="section__planets container">
         <h2>Do u know our Solar System?</h2>
         <div class="section__planets__component">
@@ -103,7 +117,7 @@
     <footer>
 
         <div class="footer__arrow">
-            <a href="#Home"><i class="fas fa-arrow-up"></i></a>
+            <a href="#Home"><i class="fas fa-arrow-circle-up"></i></i></a>
         </div>
         <div class="footer__universe">
             <h1>The Universe</h1>
