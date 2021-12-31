@@ -68,6 +68,16 @@ header {
     margin-right: 5px;
 }
 
+.header__nav__account p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__nav__account p a:hover {
+    color: rgb(146, 146, 146);
+    text-decoration: underline;
+}
+
 .header__nav__account i {
     font-size: 1.4rem;
 }
